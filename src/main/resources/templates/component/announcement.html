@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<body>
+<div th:fragment="announcement">
+
+    <link rel="stylesheet" href="css/codepen/announcement/Card1.css">
+
+    <div data-am-widget="tabs" class="am-tabs am-tabs-d2">
+        <ul class="am-tabs-nav am-cf">
+            <li class="am-active"><a href="[data-tab-panel-0]">轮播公告</a></li>
+            <li><a href="[data-tab-panel-1]">个人公告</a></li>
+            <li><a href="[data-tab-panel-2]">系统公告</a></li>
+        </ul>
+        <div class="am-tabs-bd">
+            <div data-tab-panel-0 class="am-tab-panel am-active">
+                <div class="widget">
+                    <div class="bg-danger">
+                        <div class="GanJ-info">
+                            <i class="am-icon-quote-left" style="float: left"></i><br>
+
+                                <div class="lunboMessage_">
+
+                                </div>
+
+                            <i class="am-icon-quote-right" style="float: right"></i>
+                            <div class="add_icon01">
+                                <img src="img/add_.svg" onclick="add_('lunbo','lunboMessage_')"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-tab-panel-1 class="am-tab-panel ">
+                <div class="widget">
+                    <div class="bg-danger">
+                        <div class="GanJ-info">
+                            <i class="am-icon-quote-left" style="float: left"></i><br>
+
+                            <div class="personalMessage_">
+
+                            </div>
+
+                            <i class="am-icon-quote-right" style="float: right"></i>
+                            <div class="add_icon02">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-tab-panel-2 class="am-tab-panel ">
+                <div class="widget">
+                    <div class="bg-danger">
+                        <div class="GanJ-info">
+
+                            <i class="am-icon-quote-left" style="float: left"></i><br>
+                            <div class="systemMessage_">
+                                <div>
+                                    <p class="p1">恰到好处的喜欢最舒服</p>
+                                    <img src="img/modify_.svg" onclick="modify_('system','p1')"/>
+                                </div><br>
+                                <div>
+                                    <p class="p2">恰到好处的喜欢最舒服</p>
+                                    <img src="img/modify_.svg" onclick="modify_('system','p2')"/>
+                                </div><br>
+                                <div>
+                                    <p class="p3">恰到好处的喜欢最舒服</p>
+                                    <img src="img/modify_.svg" onclick="modify_('system','p3')"/>
+                                </div><br>
+                                <div>
+                                    <p class="p4">恰到好处的喜欢最舒服</p>
+                                    <img src="img/modify_.svg" onclick="modify_('system','p4')"/>
+                                </div><br>
+                                <div>
+                                    <p class="p5">恰到好处的喜欢最舒服</p>
+                                    <img src="img/modify_.svg" onclick="modify_('system','p5')"/>
+                                </div><br><br>
+                                <div>
+                                    <div class="name_">
+                                        --- <span class="p6">GanJ</span>
+                                    </div>
+                                    <img src="img/modify_.svg" onclick="modify_('system','p6')"/>
+                                </div>
+                                <br>
+                            </div>
+                            <i class="am-icon-quote-right" style="float: right"></i><br>
+                            <div class="add_icon03">
+                                <p><strong>Welcome to my blog！！！</strong></p>
+                                <p style="line-height: 25px">平淡对待一切<br>努力做最好的自己</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

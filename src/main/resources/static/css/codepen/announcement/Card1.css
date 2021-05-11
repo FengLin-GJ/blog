@@ -1,0 +1,65 @@
+.widget{
+  background-color: #f2dede;
+  width:450px;
+  margin-left: 15px;
+  padding: 15px 15px;
+  line-height: 1.6em;
+  word-wrap: break-word;
+  font-size: 0.9em;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.bg-danger{
+  padding: 15px 0 0;
+  margin-top: -10px;
+}
+.GanJ-info img{
+  width: 15px;
+  cursor: pointer;
+}
+.lunboMessage_{
+  text-align: center;
+}
+.personalMessage_{
+  text-align: center;
+}
+.systemMessage_{
+  text-align: center;
+}
+.systemMessage_ p{
+  display: inline;
+  font-size: 14px;
+  line-height: 19px;
+  margin-left: 9%;
+}
+.systemMessage_ img{
+  float:right;
+  margin-right: 9%;
+  margin-top: 4px;
+}
+.add_icon01,.add_icon02,.add_icon03{
+  margin-top: 25px;
+  text-align: center;
+}
+.personalMessage_ small{
+    font-size: 13px;
+    color: #808080ad;
+    margin-left: 9%;
+}
+.personal_icon{
+  float: right;
+  margin-right: 9%;
+  margin-top: -3px;
+}
+.name_{
+  display: inline;
+  margin-left: 70%;
+}
+.lunbo_ p{
+  display: inline;
+  margin-left: 22%;
+}
+.lunbo_ .lunbo_icon{
+  float: right;
+  margin-right: 9%;
+  margin-top: -3px;
+}

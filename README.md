@@ -3,7 +3,7 @@
 ## 1、安装项目运行环境
 
 ```txt
-需要安装JDK1.8、MySQL5.7、elastic search6.3.2、redis，请自己前往官网下载安装。
+需要安装JDK1.8、MySQL5.7、elasticsearch6.3.2、redis，请自己前往官网下载安装。
 ```
 
 ## 2、application.yml关键配置
